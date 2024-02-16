@@ -1,15 +1,25 @@
-body{background-color: black;
-     color: azure;}
+body{
+    background-color: black;
+    color: white;
+}
 
-nav{height: 6000px;
+nav{
+    height: 6000px;
     width: 200px;
     float: left;
     padding: 5px;
-    line-height: 30px;}
+    line-height: 30px;
+}
 
-footer{text-align: center;
-       margin-right: 200px;}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
 
-#memeimage{margin-right: 200px;}
+#memeimage{
+    margin-right: 200px;
+}
 
-header{text-align: center;}
+header{
+    text-align: center;
+}
