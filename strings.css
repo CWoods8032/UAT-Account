@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+h2{
+   text-decoration: underline;
+}
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+ol{
+    font-style: italic;
+}
+
+div{
+    text-align: center;
+}
+
+body{
+    font-family: cursive;
+    background-color: aquamarine;
+    text-align: center;
+}
