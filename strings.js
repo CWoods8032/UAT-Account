@@ -1,3 +1,4 @@
+//For assignment 3.1: Palindrome Checker
 //Function to check if a word is a palindrome
 function palindromeCheck() {
     var word, copy, i;
@@ -37,4 +38,32 @@ function palindromeCheck() {
         //Recursively call the function to check the next word
         palindromeCheck();
     }
+}
+// For assignment 3.2: User Input Validation
+function validateForm(){
+    // Made values from input fields
+    const firstName = document.getElementById("firstname").value;
+    const lastName = document.getElementById("lastname").value;
+    const zipCode = document.getElementById("zipcode").value;
+
+    // Combine first name and last name
+    var fullName = firstName + " " + lastName;
+
+    // Check if the full name has more than 20 characters
+    if (fullName.length > 20) {
+        alert("Your full name is greater than 20 characters! Please Retry!");
+        return;
+    }
+
+    // Check if the zip code has exactly 5 digits
+    if (zipCode.length > 5) {
+        alert("Zip code can only be 5 digits! Please Retry!");
+        return;
+    }
+
+    // If all validations pass, display a secret message
+    else{
+        alert("Welcome to the Leaderboard!")
+    }
+
 }

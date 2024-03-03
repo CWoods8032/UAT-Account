@@ -25,10 +25,30 @@
     <p>Pressing the play game button will bring up a prompt to enter a word.</p>
     <p>By guessing and pressing continue it will prompt whether it is a palindrome word or not.</p>
     <p>You may continue to try and guess a word or cancel at any time.</p>
-<!--button insterted inside div to help activate the function--> 
-    <div id="divOutput">
-        <button onclick="palindromeCheck()">Play Game!</button>
-    </div>
+<!--Button insterted inside div to help activate the function--> 
+    <button onclick="palindromeCheck()">Play Game!</button><br><br>
+    <div id="divOutput"></div>
+    
+    <!--Leaderboard header to better understand what the user is signing up for-->
+    <h3>Get put on the Leaderboard!</h3>
+    <!--Created form with id and function-->
+    <form id="form" onsubmit="validateForm()">
+    <!--Firstname Label-->
+        <label for="firstname">First Name:</label>
+        <!--Set input with breaks for space-->
+        <input type="text" id="firstname" name="First Name"/><br><br>
+    <!--Lastname Label-->
+        <label for="lastname">Last Name:</label>
+        <!--Set input with breaks for space-->
+        <input type="text" id="lastname" name="First Name"/><br><br>
+    <!--Zip Code Label-->
+        <label for="zipcode">Zip Code:</label>
+        <!--Set input with breaks for space-->
+        <input type="text" id="zipcode" name="Zip Code"/><br><br>
+    <!--Created button with description submit-->
+        <input type="Submit" value="Submit!"><br><br>
+    
+    </form>
 
 </body>   
 </html>
