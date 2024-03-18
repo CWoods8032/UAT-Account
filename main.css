@@ -16,10 +16,12 @@ footer{
     margin-right: 200px;
 }
 
-#memeImage{
-    margin-right: 200px;
-}
-
 header{
     text-align: center;
+}
+
+#meme {
+    position: relative;
+    top: 0;
+    left: 0;
 }

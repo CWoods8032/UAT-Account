@@ -61,6 +61,11 @@ function validateForm(){
         return;
     }
 
+    if(zipCode.length < 5) {
+       alert("Zip code can not be less than 5 digits! Please Retry!");
+       return;
+    }
+
     // If all validations pass, display a secret message
     else{
         alert("Welcome to the Leaderboard!")
