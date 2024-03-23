@@ -14,6 +14,10 @@ nav{
     line-height: 30px;
 }
 
+a {
+    color: black;
+}
+
 p{
     text-align: center;
 }

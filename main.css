@@ -16,6 +16,10 @@ footer{
     margin-right: 200px;
 }
 
+a {
+    color: white;
+}
+
 header{
     text-align: center;
 }
